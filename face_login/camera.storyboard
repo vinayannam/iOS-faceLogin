@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5ba-xI-hS2">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="i7a-6y-IaK">
+            <objects>
+                <viewController id="5ba-xI-hS2" customClass="cameraViewController" customModule="face_login" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qmf-ra-Xfp"/>
+                        <viewControllerLayoutGuide type="bottom" id="AyH-NF-qnK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lut-hY-7sS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xaz-rV-fm8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0O-x8-zfl">
+                                <rect key="frame" x="139" y="582" width="136" height="134"/>
+                                <state key="normal" title="Take Picture">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="5ba-xI-hS2" eventType="touchUpInside" id="zVk-tz-zhz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xaz-rV-fm8" firstAttribute="leading" secondItem="lut-hY-7sS" secondAttribute="leading" id="IEC-Fl-nBW"/>
+                            <constraint firstItem="AyH-NF-qnK" firstAttribute="top" secondItem="L0O-x8-zfl" secondAttribute="bottom" constant="20" id="KbW-Ql-4F2"/>
+                            <constraint firstItem="L0O-x8-zfl" firstAttribute="leading" secondItem="lut-hY-7sS" secondAttribute="leadingMargin" constant="119" id="KfS-dV-wXL"/>
+                            <constraint firstItem="xaz-rV-fm8" firstAttribute="top" secondItem="lut-hY-7sS" secondAttribute="top" id="SG2-8M-B0Y"/>
+                            <constraint firstItem="xaz-rV-fm8" firstAttribute="centerX" secondItem="L0O-x8-zfl" secondAttribute="centerX" id="URa-DC-nzp"/>
+                            <constraint firstItem="xaz-rV-fm8" firstAttribute="bottom" secondItem="AyH-NF-qnK" secondAttribute="top" id="Vhe-zt-0gb"/>
+                            <constraint firstItem="xaz-rV-fm8" firstAttribute="top" secondItem="lut-hY-7sS" secondAttribute="top" id="bkJ-2I-D2U"/>
+                            <constraint firstItem="xaz-rV-fm8" firstAttribute="leading" secondItem="lut-hY-7sS" secondAttribute="leading" id="jag-gh-ndE"/>
+                            <constraint firstAttribute="trailing" secondItem="xaz-rV-fm8" secondAttribute="trailing" id="kbR-Lf-NXV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="L0O-x8-zfl" secondAttribute="trailing" constant="119" id="nlo-87-woo"/>
+                            <constraint firstItem="AyH-NF-qnK" firstAttribute="top" secondItem="xaz-rV-fm8" secondAttribute="bottom" id="s5g-pa-0DO"/>
+                            <constraint firstItem="L0O-x8-zfl" firstAttribute="top" secondItem="Qmf-ra-Xfp" secondAttribute="bottom" constant="562" id="xl3-rF-YRM"/>
+                            <constraint firstItem="L0O-x8-zfl" firstAttribute="centerX" secondItem="lut-hY-7sS" secondAttribute="centerX" id="yxe-SB-Epg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="L0O-x8-zfl" id="jsh-JT-rbF"/>
+                        <outlet property="cameraView" destination="xaz-rV-fm8" id="dT0-d8-WzN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tuH-gI-LiL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-655" y="172"/>
+        </scene>
+    </scenes>
+</document>

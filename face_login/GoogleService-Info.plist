@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>318993097442-ttogd186ssfohp8l8ncuu77qhpmvlejb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.318993097442-ttogd186ssfohp8l8ncuu77qhpmvlejb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDwD5LyxYuR8Mdqt8QTe6wmEZ7IR7Y61RM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>318993097442</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vinay.a.s.d..face-login</string>
+	<key>PROJECT_ID</key>
+	<string>facelogin-95d40</string>
+	<key>STORAGE_BUCKET</key>
+	<string>facelogin-95d40.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:318993097442:ios:2811194bdbfcc183</string>
+	<key>DATABASE_URL</key>
+	<string>https://facelogin-95d40.firebaseio.com</string>
+</dict>
+</plist>
